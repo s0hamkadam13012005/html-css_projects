@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+
+      p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: Roboto, Arial;
+      }
+
+      .video-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        column-gap: 8px;
+        row-gap: 20px;
+      }
+
+      .thumbnail {
+        width: 100%;
+      }
+
+      .video-preview {
+        display: inline-block;
+        vertical-align: top;
+        width: 300px;
+        margin-right: 15px;
+      }
+      
+      .video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+      }
+
+
+      .search-bar {
+        display: block;
+        
+      }
+
+      .thumbnail-row {
+        margin-bottom: 12px;
+      }
+
+      /* Container to keep channel logo and details aligned */
+      
+      .channel-info {
+        display: flex;
+        align-items: flex-start;
+      }
+      .channel-pic {
+        width: 50px;
+        margin-right: 10px;
+      }
+
+      .profile-pic {
+        width: 40px;
+        border-radius: 50%;
+      }
+
+      .video-title {
+        font-weight: 500;
+        font-size: 14px;
+        color: #000;
+      }
+
+      .author, .video-stats {
+        font-size: 12px;
+        color: rgb(96, 96, 96);
+      }
+
+      .author {
+        margin-bottom: 4px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <input class="search-bar" type="text" placeholder="Search">
+ <div class="video-grid"> <div class="video-preview">
+    <div class="thumbnail-row">
+      <img class="thumbnail" src="thumbnails/thumbnail.webp" alt="Thumbnail">
+    </div>
+ 
+   <div> <div class="channel-info">
+    <div class="channel-pic">
+      <img class="profile-pic" src="thumbnails/channel-pic.jpg" alt="Channel Picture">
+    </div>
+    <div class="video-info-grid">
+      <div class="video-title">
+        <p>HTML &amp; CSS Full Course - Beginner to Pro</p>
+      </div>
+      <div class="author">
+        <p>SuperSimpleDev ✓</p>
+      </div>
+      <div class="video-stats">
+        <p>12M views · 2 years ago</p>
+      </div>
+    </div>
+  </div></div>
+  </div>
+    
+
+   
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail2.webp" alt="Thumbnail">
+      </div>
+ 
+      <div class="channel-info">
+        <div class="channel-pic">
+          <img class="profile-pic" src="thumbnails/channel-pic1.jpg" alt="Channel Picture">
+        </div>
+        <div>
+          <div class="video-title">
+            <p>Kaise ab kahein!</p>
+          </div>
+          <div class="author">
+            <p>Mx player</p>
+          </div>
+          <div class="video-stats">
+            <p>12M views · 2 years ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail2.webp" alt="Thumbnail">
+        </div>
+   
+        <div class="channel-info">
+          <div class="channel-pic">
+            <img class="profile-pic" src="thumbnails/channel-pic1.jpg" alt="Channel Picture">
+          </div>
+          <div>
+            <div class="video-title">
+              <p>Kaise ab kahein!</p>
+            </div>
+            <div class="author">
+              <p>Mx player</p>
+            </div>
+            <div class="video-stats">
+              <p>12M views · 2 years ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+ </div>
+  </body>
+</html>

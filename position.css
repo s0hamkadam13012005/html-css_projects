@@ -1,0 +1,27 @@
+
+.top{background-color: black; color: white; height: 60px; 
+         position: fixed;
+         top: 0px;
+         left: 0px;
+         right: 0px;
+
+}
+
+       .sidebar{background-color: rgb(0, 36, 128);
+         position:fixed;
+         left:0;
+         top: 50px;
+         bottom: 0;
+         width: 72px;
+
+       }
+
+       .div2{background-color: lightpink;  height: 200px;
+        width: 200px;}
+       
+       .X{
+        position: absolute;
+        color: rgb(231, 225, 225);
+        top: 0px;
+        right: 0px;
+       }
